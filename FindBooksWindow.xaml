@@ -1,0 +1,42 @@
+﻿<Window x:Class="BooksCatalogUI.FindBooksWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooksCatalogUI"
+        mc:Ignorable="d"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        FontSize="{DynamicResource MaterialDesignSize}"
+        Height="190" Width="300">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="AppStyle.xaml"/>
+           
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+           
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" >Поиск по:</Label>
+        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding Categories}"  SelectedItem="{Binding Path=SelectedCategory}" ></ComboBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding KeyWords}" ></TextBox>
+        
+        <WrapPanel Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Button IsDefault="True" MinWidth="60" Margin="0,0,10,0" Click="Button_Click" >OK</Button>
+            <Button IsCancel="True" MinWidth="60" Margin="0,0,10,0">Отмена</Button>
+        </WrapPanel>
+    </Grid>
+</Window>
