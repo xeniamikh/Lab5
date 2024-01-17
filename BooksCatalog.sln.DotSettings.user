@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b0c0778d_002D7411_002D403a_002D9f88_002De367636ea787/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="NewBookAddedToBooks" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E74C64C-3205-4D16-81AA-814BDC9421B4::net6.0::BookCatalogTests.BookCatalogTests.NewBookAddedToBooks&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c7e6644e_002D4f54_002D4ea2_002D81fb_002Dd86b57418cf0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="NewBookAddedToBooks #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E74C64C-3205-4D16-81AA-814BDC9421B4::net6.0::BookCatalogTests.BookCatalogTests.NewBookAddedToBooks&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E74C64C-3205-4D16-81AA-814BDC9421B4::net6.0::BookCatalogTests.BookCatalogTests.FindBooksReturnsRightResults&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E74C64C-3205-4D16-81AA-814BDC9421B4::net6.0::BookCatalogTests.BookCatalogTests.FindBooksReturnsSortedResults&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
