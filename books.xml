@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Books>
+    <BookId>4ac9690c-6430-4067-96a2-93f54c052316</BookId>
+    <Title>Название</Title>
+    <Author>Автор Р</Author>
+    <ISBN>123э</ISBN>
+    <Brief>Некая аннотация</Brief>
+    <Date>2023-12-11T00:00:00</Date>
+    <Genre>Роман</Genre>
+  </Books>
+</BookCatalog>
